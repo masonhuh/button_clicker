@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#page-content {
+    display: flex;
+    align-content: flex-start;
+}
+
+#navbar {
+    color: black;
+    display: flex;
+}
+
+#search {
+    border: 2px solid black;
+    height: 20px;
+}
+
+nav {
+    width: 838px;
+    background-color: grey;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid grey;
+    margin: 0px 160px;
+}
+
+.dojonary {
+    display: inline-flex;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+#search {
+    display: flex;
+    padding-right: 60px;
+    list-style: none;
+    gap: 20px;
+}
+
+.btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: blue;
+    width: 80px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+.block-1 {
+    display: flex;
+    position: relative;
+    border: 5px solid black;
+    width: 600px;
+    height: 200px;
+    margin: 50px auto;
+    margin-left: 160px;
+}
+
+.left-side {
+    margin: 10px;
+    text-align: center;
+}
+
+.dict-title {
+    font-size: 40px;
+}
+
+.noun {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 5px 0px;
+}
+
+.plural {
+    font-size: 15px;
+    margin: 5px 0px;
+    font-weight: lighter;
+}
+
+.dict-btn {
+    margin: 10px 0px;
+    background-color: gold;
+    width: 90px;
+    height: 45px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px 1px black;
+}
+
+.entry {
+    margin: 80px 25px;
+    vertical-align: middle;
+}
+
+.block-2 {
+    display: flex;
+    position: relative;
+    border: 5px solid black;
+    width: 600px;
+    height: 200px;
+    margin: 50px auto;
+    margin-left: 160px;
+}
+
+.block-3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 5px solid black;
+    width: 200px;
+    height: 160px;
+    margin: 50px auto;
+    margin-left: 40px;
+}
+
+.b3-message {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.add-btn {
+    margin: 15px 20px;
+    background-color: seagreen;
+    height: 30px;
+    width: 160px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px 1px black;
+}
